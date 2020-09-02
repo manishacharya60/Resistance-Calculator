@@ -11,7 +11,7 @@ class xyz extends JFrame implements ActionListener {
 	
 	public xyz() {
 	title = new JLabel("Welcome to Resistance Calculator!");
-	design = new JLabel("Design and created by: Manish Acharya");
+	design = new JLabel("Designed and created by: Manish Acharya");
 	b= new JButton("Start!");
 	p = new JProgressBar(0, 20);
 	Timer t = new Timer(200, this);
